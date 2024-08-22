@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 100px;  
+    height: auto; 
+	margin-left: 50px;
+    font-size: 18px;  
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.cta-button {
+    background: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about, .services-overview, .services-detail, .contact-form, .contact-info {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2, .services-overview h2, .services-detail h2, .contact-form h2, .contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 
